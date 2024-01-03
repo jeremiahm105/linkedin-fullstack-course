@@ -76,13 +76,18 @@ footer a:hover {
     background-image: url(../images/bg-home-office-studio.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Use to make the background opaque */
 .home .content-wrapper {
-    background: rgb(255 255 255 / 0.7);
-    /* background: whitesmoke / 0.9; */
+    flex: 1 0 auto;
 
+}
+.content-bg {
+    background: rgb(255 255 255 / 0.7);
+    padding: 30px;
 }
 
 
@@ -120,6 +125,8 @@ footer a:hover {
 footer {
     background: #0C2D48;
     color: #d3d4d6;
+    display: flex;
+    
 }
 
 .socials {
