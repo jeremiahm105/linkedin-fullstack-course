@@ -83,6 +83,13 @@ footer a:hover {
     background: #0C2D48;
     color: #f6f6f6;
     text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    display: inline-block;
+    padding: 7px;
+    letter-spacing: .1em;
+    line-height: 1;
+    border-radius: 4px;
 }
 
 .btn:hover {
@@ -134,7 +141,9 @@ footer a:hover {
 .download-link {
     position: fixed;
     top: 5px;
-    left: 5px
+    left: 5px;
+    font-size: 1.5rem;
+
 }
 /* Profile 
 ------------------------------------------*/
@@ -149,9 +158,27 @@ footer a:hover {
     grid-template-columns: 350px 2fr;
     column-gap: 20px;
 }
+.work-details p {
+    margin: 0;
+}
+
+/* .work-summary p:first-child {
+    margin-top: 0;
+} */
 
 /* Education 
 ------------------------------------------*/
+.edu-item h3 {
+    margin: 0;
+}
+
+.edu-item p {
+    margin: 0;
+}
+
+.uiw {
+    margin-top: 20px;
+}
 
 /* Footer 
 ------------------------------------------*/
